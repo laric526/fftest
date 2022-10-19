@@ -3,8 +3,8 @@ const keyHistory = document.getElementById("key-history");
 
 addToInfo("Screen Width", screen.width);
 addToInfo("Screen Height", screen.height);
-addToInfo("Available Width", screen.availWidth);
-addToInfo("Available Height", screen.availHeight);
+addToInfo("Window Width", window.width);
+addToInfo("Window Height", window.height);
 
 function addToInfo(label, value) {
     const entry = document.createElement("li");
