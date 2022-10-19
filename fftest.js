@@ -8,7 +8,7 @@ addToInfo("Available Height", screen.availHeight);
 
 function addToInfo(label, value) {
     const entry = document.createElement("li");
-    entry.innerHTML = `${label}: value`;
+    entry.innerHTML = `${label}: ${value}`;
     info.insertBefore(entry, keyHistory.firstChild);
 }
 
